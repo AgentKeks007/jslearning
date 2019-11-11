@@ -1,0 +1,39 @@
+#zagadkaBlock, #otvetBlock {
+  width: 85%;
+  min-height: 25%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+#zagadkaBlock {
+  background-color: #c9dba8; }
+
+#otvetBlock {
+  background-color: aliceblue; }
+
+#answer {
+  max-width: 60%; }
+
+.answerButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 10px 22px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000000;
+  background-color: #ffcbcb;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 2px #999;
+  resize: none; }
+
+.answerButton:hover {
+  background-color: #ffbbbb; }
+
+.answerButton:active {
+  background-color: #ffbbbb;
+  box-shadow: 0 2px #655;
+  transform: translateY(2px); }

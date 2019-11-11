@@ -1,0 +1,15 @@
+<head>
+
+</head>
+
+<body style="margin:0">
+    <canvas id="canvasElem" width="500" height="400" style="border:1px solid"></canvas>
+  
+    <script>
+      canvasElem.onmousemove = function(e) {
+        let ctx = canvasElem.getContext('2d');
+        ctx.lineTo(e.clientX, e.clientY);
+        ctx.stroke();
+      };
+    </script>
+  </body>
