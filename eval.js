@@ -1,4 +1,5 @@
-eval('console.log(1+2)');
+eval('console.log(1+4)');
+
 
 let arr = [0, 5, 1, 2, 4];
 console.log(arr.join('+'));
